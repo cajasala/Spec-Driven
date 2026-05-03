@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "readme": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/readme/SKILL.md",
+      "computedHash": "a000dd43ab3f5fed0345b6d4dc5726db78ad505523117ad25b31e3c7fe49d61d"
+    }
+  }
+}

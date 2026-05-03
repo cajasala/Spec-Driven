@@ -11,18 +11,18 @@ import './Benefits.css'
 export default function Benefits() {
   const benefits = [
     {
-      title: 'Claridad Primero',
-      description: 'Deja de adivinar qué construir. Escribe especificaciones claras que sirvan como única fuente de verdad.',
-      icon: '🎯'
+      title: 'Colaboración con IA',
+      description: 'Escribe especificaciones con OpenSpec que sirvan como instrucciones perfectas para asistentes de IA.',
+      icon: '🤖'
     },
     {
-      title: 'Entrega Más Rápida',
-      description: 'Reduce el retrabajo y los ciclos de retroalimentación interminables alineando expectativas antes de comenzar a programar.',
+      title: 'Desarrollo Autónomo',
+      description: 'Usa Antigravity para que los agentes implementen el código, reduciendo el trabajo manual dramáticamente.',
       icon: '⚡'
     },
     {
-      title: 'Mejor Calidad',
-      description: 'Construye software robusto abordando casos extremos en la fase de especificación.',
+      title: 'Calidad Consistente',
+      description: 'Construye software robusto guiado por especificaciones claras, donde la IA escribe el código y tú diriges.',
       icon: '🛡️'
     }
   ];

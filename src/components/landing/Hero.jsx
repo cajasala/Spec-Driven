@@ -16,7 +16,7 @@ export default function Hero() {
           Master class <span className="hero-highlight">Spec-Driven Development</span>
         </h1>
         <p className="hero-subtitle">
-          Construye aplicaciones más rápido definiendo especificaciones claras y ejecutables antes de escribir código.
+          Domina el desarrollo agéntico. Construye aplicaciones con IA de forma predecible usando las especificaciones de OpenSpec y el poder de Antigravity.
         </p>
         <div className="hero-actions">
           <button className="cta-button primary">Inscríbete Ahora</button>

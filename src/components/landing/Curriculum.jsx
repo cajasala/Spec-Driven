@@ -12,23 +12,23 @@ export default function Curriculum() {
   const modules = [
     {
       number: '01',
-      title: 'Introducción a las Especificaciones',
-      lessons: 'Qué es SDD, sus beneficios y el cambio de mentalidad.'
+      title: 'Introducción a SDD',
+      lessons: 'Comprende el cambio de mentalidad y por qué la IA agéntica es el futuro.'
     },
     {
       number: '02',
-      title: 'Escribiendo Especificaciones Ejecutables',
-      lessons: 'Aprende la sintaxis y estructura de grandes especificaciones.'
+      title: 'Estructuración con OpenSpec',
+      lessons: 'Aprende a redactar propuestas, diseños y especificaciones ejecutables por IA.'
     },
     {
       number: '03',
-      title: 'Herramientas e Integración',
-      lessons: 'Configuración de frameworks de pruebas y pipelines de CI/CD.'
+      title: 'Desarrollo Agéntico con Antigravity',
+      lessons: 'Flujos de trabajo, asistentes de código y autonomía en el IDE para implementar tus especificaciones.'
     },
     {
       number: '04',
-      title: 'Patrones Avanzados',
-      lessons: 'Manejando dominios complejos y bases de código heredadas.'
+      title: 'Patrones Avanzados de Colaboración',
+      lessons: 'Manejo de proyectos complejos, refactorización y resolución de conflictos entre agentes.'
     }
   ];
 
