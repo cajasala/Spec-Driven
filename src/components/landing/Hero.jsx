@@ -13,14 +13,28 @@ export default function Hero() {
     <section className="hero-section">
       <div className="hero-content">
         <h1 className="hero-title">
-          Domina el <span className="hero-highlight">Spec Driven Development</span>
+          Master class <span className="hero-highlight">Spec-Driven Development</span>
         </h1>
         <p className="hero-subtitle">
-          Aprende a construir mejor software más rápido escribiendo especificaciones claras y ejecutables antes de escribir una sola línea de código.
+          Construye aplicaciones más rápido definiendo especificaciones claras y ejecutables antes de escribir código.
         </p>
         <div className="hero-actions">
           <button className="cta-button primary">Inscríbete Ahora</button>
           <button className="cta-button secondary">Ver Plan de Estudios</button>
+        </div>
+
+        <div className="tech-authority">
+          <p className="tech-label">TECNOLOGÍAS BASE DEL CURSO</p>
+          <div className="tech-logos">
+            <div className="tech-logo">
+              <span className="tech-icon">🪐</span>
+              <span className="tech-name">Antigravity</span>
+            </div>
+            <div className="tech-logo">
+              <span className="tech-icon">📄</span>
+              <span className="tech-name">OpenSpec</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

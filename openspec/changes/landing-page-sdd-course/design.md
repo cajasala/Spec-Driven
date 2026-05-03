@@ -17,6 +17,7 @@ El proyecto actual es una aplicación en React recién inicializada con Vite que
 ## Decisions
 
 - **Estructura de Componentes**: La página principal (`App.jsx`) se dividirá en varios componentes funcionales: `<Hero />`, `<Benefits />`, `<Curriculum />` y `<FooterCTA />` dentro de una nueva carpeta `src/components`.
+- **Integración de Tecnologías**: El componente `<Hero />` incluirá una "Fila de Autoridad" justo debajo de los botones de llamada a la acción (CTA) mostrando que el curso está construido/basado en **Antigravity** y **OpenSpec**. Se usarán íconos y texto sutil (text-secondary) con efectos hover para no restar protagonismo al curso.
 - **Estilos y Estética Premium**: Se utilizarán variables de CSS (`index.css`) para definir una paleta de colores sofisticada, uso de gradientes suaves, glassmorphism si es necesario y tipografías modernas. 
 - **Tipografía**: Se configurará una fuente moderna de Google Fonts (ej. Inter) en `index.html`.
 
