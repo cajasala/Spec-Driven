@@ -1,41 +1,41 @@
 /**
- * Purpose: Displays the course modules or curriculum outline.
+ * Propósito: Muestra los módulos del curso o el esquema del plan de estudios.
  */
 import './Curriculum.css'
 
 /**
- * Curriculum component that lists the different modules in the course.
+ * Componente Curriculum que lista los diferentes módulos en el curso.
  * 
- * @returns {JSX.Element} The Curriculum section.
+ * @returns {JSX.Element} La sección de Curriculum.
  */
 export default function Curriculum() {
   const modules = [
     {
       number: '01',
-      title: 'Introduction to Specifications',
-      lessons: 'What is SDD, benefits, and the mindset shift.'
+      title: 'Introducción a las Especificaciones',
+      lessons: 'Qué es SDD, sus beneficios y el cambio de mentalidad.'
     },
     {
       number: '02',
-      title: 'Writing Executable Specs',
-      lessons: 'Learn the syntax and structure of great specifications.'
+      title: 'Escribiendo Especificaciones Ejecutables',
+      lessons: 'Aprende la sintaxis y estructura de grandes especificaciones.'
     },
     {
       number: '03',
-      title: 'Tooling & Integration',
-      lessons: 'Setting up testing frameworks and CI/CD pipelines.'
+      title: 'Herramientas e Integración',
+      lessons: 'Configuración de frameworks de pruebas y pipelines de CI/CD.'
     },
     {
       number: '04',
-      title: 'Advanced Patterns',
-      lessons: 'Handling complex domains and legacy codebases.'
+      title: 'Patrones Avanzados',
+      lessons: 'Manejando dominios complejos y bases de código heredadas.'
     }
   ];
 
   return (
     <section className="curriculum-section">
       <div className="curriculum-container">
-        <h2 className="section-title">Course Curriculum</h2>
+        <h2 className="section-title">Plan de Estudios del Curso</h2>
         <div className="module-list">
           {modules.map((mod, index) => (
             <div key={index} className="module-item">

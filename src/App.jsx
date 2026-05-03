@@ -1,5 +1,5 @@
 /**
- * Purpose: Main application component that serves as the layout container for the landing page.
+ * Propósito: Componente principal de la aplicación que sirve como contenedor de diseño para la página de inicio.
  */
 import './App.css'
 import Hero from './components/landing/Hero'
@@ -8,9 +8,9 @@ import Curriculum from './components/landing/Curriculum'
 import FooterCTA from './components/landing/FooterCTA'
 
 /**
- * Renders the main application structure.
+ * Renderiza la estructura principal de la aplicación.
  * 
- * @returns {JSX.Element} The rendered root component.
+ * @returns {JSX.Element} El componente raíz renderizado.
  */
 function App() {
   return (

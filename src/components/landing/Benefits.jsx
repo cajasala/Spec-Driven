@@ -1,35 +1,35 @@
 /**
- * Purpose: Displays the key benefits of taking the Spec Driven Development course.
+ * Propósito: Muestra los beneficios clave de tomar el curso de Spec Driven Development.
  */
 import './Benefits.css'
 
 /**
- * Benefits component rendering a grid of feature cards.
+ * Componente de Beneficios que renderiza una cuadrícula de tarjetas de características.
  * 
- * @returns {JSX.Element} The Benefits section.
+ * @returns {JSX.Element} La sección de Beneficios.
  */
 export default function Benefits() {
   const benefits = [
     {
-      title: 'Clarity First',
-      description: 'Stop guessing what to build. Write clear specs that serve as the single source of truth.',
+      title: 'Claridad Primero',
+      description: 'Deja de adivinar qué construir. Escribe especificaciones claras que sirvan como única fuente de verdad.',
       icon: '🎯'
     },
     {
-      title: 'Faster Delivery',
-      description: 'Reduce rework and endless feedback loops by aligning expectations before coding begins.',
+      title: 'Entrega Más Rápida',
+      description: 'Reduce el retrabajo y los ciclos de retroalimentación interminables alineando expectativas antes de comenzar a programar.',
       icon: '⚡'
     },
     {
-      title: 'Better Quality',
-      description: 'Build robust software by addressing edge cases in the specification phase.',
+      title: 'Mejor Calidad',
+      description: 'Construye software robusto abordando casos extremos en la fase de especificación.',
       icon: '🛡️'
     }
   ];
 
   return (
     <section className="benefits-section">
-      <h2 className="section-title">Why Spec Driven Development?</h2>
+      <h2 className="section-title">¿Por qué Spec Driven Development?</h2>
       <div className="benefits-grid">
         {benefits.map((benefit, index) => (
           <div key={index} className="benefit-card">

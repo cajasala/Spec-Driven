@@ -1,24 +1,24 @@
 /**
- * Purpose: Call-to-action section at the bottom of the landing page.
+ * Propósito: Sección de llamado a la acción (CTA) en la parte inferior de la página de inicio.
  */
 import './FooterCTA.css'
 
 /**
- * FooterCTA component encouraging users to sign up or join the waitlist.
+ * Componente FooterCTA que anima a los usuarios a registrarse o unirse a la lista de espera.
  * 
- * @returns {JSX.Element} The Footer CTA section.
+ * @returns {JSX.Element} La sección del Footer CTA.
  */
 export default function FooterCTA() {
   return (
     <section className="footer-cta-section">
       <div className="cta-container">
-        <h2 className="cta-heading">Ready to transform your development process?</h2>
+        <h2 className="cta-heading">¿Listo para transformar tu proceso de desarrollo?</h2>
         <p className="cta-text">
-          Join the waitlist today and get early access plus a 20% discount on launch day.
+          Únete a la lista de espera hoy y obtén acceso anticipado más un 20% de descuento el día del lanzamiento.
         </p>
         <div className="cta-form">
-          <input type="email" placeholder="Enter your email" className="cta-input" />
-          <button className="cta-button primary">Join Waitlist</button>
+          <input type="email" placeholder="Ingresa tu correo electrónico" className="cta-input" />
+          <button className="cta-button primary">Unirse a la Lista de Espera</button>
         </div>
       </div>
     </section>
